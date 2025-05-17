@@ -1,6 +1,7 @@
 package permissions.dispatcher;
 
-import androidx.annotation.Nullable;
+//import androidx.annotation.Nullable;
+
 
 import com.android.tools.lint.client.api.UElementHandler;
 import com.android.tools.lint.detector.api.Category;
@@ -12,6 +13,7 @@ import com.android.tools.lint.detector.api.Scope;
 import com.android.tools.lint.detector.api.Severity;
 import com.intellij.psi.PsiElement;
 
+import org.jetbrains.annotations.Nullable;
 import org.jetbrains.uast.UAnnotation;
 import org.jetbrains.uast.UBlockExpression;
 import org.jetbrains.uast.UClass;
