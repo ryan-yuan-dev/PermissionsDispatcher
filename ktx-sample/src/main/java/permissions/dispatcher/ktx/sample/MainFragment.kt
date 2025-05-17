@@ -22,7 +22,7 @@ class MainFragment : Fragment() {
     private lateinit var permissionsRequester: PermissionsRequester
     private lateinit var fileManagerRequester: PermissionsRequester
 
-    override fun onAttach(context: Context?) {
+    override fun onAttach(context: Context) {
         super.onAttach(context)
         permissionsRequester = constructPermissionsRequest(
             Manifest.permission.CAMERA,
